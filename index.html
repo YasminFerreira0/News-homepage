@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <link rel="stylesheet" href="css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | News homepage</title>
   
@@ -18,41 +20,50 @@
 
     <div class="cabecalho">
       <h1 class="logo-cabecalho"><img src="assets/images/logo.svg" alt="logo"></h1>
-      
+      <button class="botao-menu-cabecalho"><img src="assets/images/icon-menu.svg" alt="menu"></button>
 
-      <nav>
-        <ul class="links-cabecalho">
-          <li>Home</li>
-          <li>New</li>
-          <li>Popular</li>
-          <li>Trending</li>
-          <li>Categories</li>
-        </ul>
+      <nav class="links-cabecalho">
+          <a href="#"></a>Home</a>
+          <a href="#"></a>New</a>
+          <a href="#"></a>Popular</a>
+          <a href="#"></a>Trending</a>
+          <a href="#"></a>Categories</a>
       </nav>
 
     </div>
   </header>
   <main>
-    <section>
-      <h1 class="titulo">The Bright Future of Web 3.0?</h1>
 
-      <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+    <div class="banner-principal"></div>
+
+    <section>
+      <h2 class="titulo-principal">The Bright Future of Web 3.0?</h2>
+
+      <p class="texto-principal">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
       But is it really fulfilling its promise?</p>
 
-      <button>Read more</button>
+      <button class="botao-principal">READ MORE</button>
     </section>
     
-    <section>
-      <h2>New</h2> 
+    <section class="card-new">
+      <div class="container-card-new">
+        <h3 class="card-new-titulo">New</h3> 
 
-      <h4>Hydrogen VS Electric Cars</h4>
-      <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
-      
-      <h4>The Downsides of AI Artistry</h4>
-      <p>What are the possible adverse effects of on-demand AI image generation?</p>
-      
-      <h4>Is VC Funding Drying Up?</h4>
-      <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        <div class="caixa-card-new">
+          <h4 class="car-new-subtitulo">Hydrogen VS Electric Cars</h4>
+          <p class="card-new-texto">Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+          
+        <div class="caixa-card-new caixa-card-new__meio">
+          <h4 class="car-new-subtitulo">The Downsides of AI Artistry</h4>
+          <p class="card-new-texto">What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+          
+        <div class="caixa-card-new ">
+          <h4 class="car-new-subtitulo">Is VC Funding Drying Up?</h4>
+          <p class="card-new-texto">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+      </div>
     </section>
 
     <section>

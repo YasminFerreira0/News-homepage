@@ -1,11 +1,128 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 4vw;
+    background-color: hsl(36, 100%, 99%);
+
+    font-family: 'Inter', sans-serif;
+}
 
 .cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.botao-menu-cabecalho{
+    border: none;
+    background-color: transparent;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+
+
+.banner-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/images/image-web-3-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin: 25px 0;
+}
+
+.titulo-principal {
+    color: hsl(240, 100%, 5%);
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.texto-principal {
+    font-size: 1.1em;
+    color: hsl(236, 13%, 42%);
+    margin: 20px 0;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.botao-principal {
+    border: none;
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    padding: 10px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 5px 0 20px 0;
+}
+
+.card-new {
+    background-color: hsl(240, 100%, 5%);
+}
+
+.container-card-new {
+    padding: 25px;
+}
+.card-new-titulo {
+    font-size: 2.5em;
+    color: hsl(35, 77%, 62%);
+    font-weight: 800;
+    margin: 8px 0;
+}
+
+.caixa-card-new {
+    padding: 20px 0;
+}
+
+.caixa-card-new__meio {
+    border-top: 1px solid hsl(233, 8%, 79%);
+    border-bottom: 1px solid hsl(233, 8%, 79%);
+}
+.car-new-subtitulo {
+    color: hsl(233, 8%, 79%);
+    font-size: 1.3em;
+    font-weight: 700;
+    margin: 5px 0;
     
+}
+
+.card-new-texto {
+    font-size: 1em;
+    color: hsl(236, 13%, 42%);
+    font-weight: 400;
+    line-height: 22px;
 }
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.links-cabecalho{
+    display: none;
+}
+
+
+
+
+
+
+/** icone de x <i class="fa-solid fa-xmark-large"></i>**/
 
 
 .attribution {
