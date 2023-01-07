@@ -96,6 +96,34 @@ body {
 }
 
 
+.apresentacao-produtos {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+}
+
+.card-produto {
+    margin: 20px 0;
+}
+
+.card-titulo {
+    color: hsl(233, 8%, 79%);
+    font-size: 2em;
+    font-weight: 700;
+}
+
+
+.card-subtitulo {
+    color: hsl(240, 100%, 5%);
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.card-texto {
+    color: hsl(233, 8%, 79%);
+    font-size: 0.9em;
+    line-height: 20px;
+}
 
 
 .links-cabecalho{
