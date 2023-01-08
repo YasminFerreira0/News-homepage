@@ -104,25 +104,33 @@ body {
 
 .card-produto {
     margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.card-img-produto{
+    width: 25vw;
 }
 
 .card-titulo {
     color: hsl(233, 8%, 79%);
-    font-size: 2em;
+    font-size: 1.9em;
     font-weight: 700;
 }
 
 
 .card-subtitulo {
     color: hsl(240, 100%, 5%);
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 700;
+    margin: 10px 0;
 }
 
 .card-texto {
     color: hsl(233, 8%, 79%);
     font-size: 0.9em;
-    line-height: 20px;
+    line-height: 22px;
 }
 
 
