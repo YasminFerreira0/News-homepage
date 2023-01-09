@@ -21,6 +21,22 @@ body {
 }
 
 
+/*menu navagação mobile*/
+.menu-cabecalho {
+    display: none;
+}
+
+.active {
+    position: absolute;
+    width: 75vw;
+    height: 100vh;
+    background-color: #949b94;
+    top: 0;
+    right: 0;
+}
+/*......*/
+
+
 .banner-principal {
     display: flex;
     flex-direction: column;
@@ -158,6 +174,13 @@ body {
         justify-content: space-between;
     }
 
+    /*.......*/
+    .menu-cabecalho {
+        display: block;
+    }
+    /**/
+
+
     .menu-nav {
         display: flex;
         gap: 40px;
@@ -172,6 +195,10 @@ body {
 
     .menu-itens:hover {
         color: hsl(35, 77%, 62%);
+    }
+
+    .botao-menu-cabecalho {
+        display: none;
     }
 
     .container {
