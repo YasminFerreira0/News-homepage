@@ -162,6 +162,10 @@ body {
         margin: 20px 0;
     }
     
+    .logo-cabecalho {
+        width: 5vw;
+    }
+    
     .banner-principal {
         grid-area: 1 / 1 / 2 / 3;
         background-image: url(../assets/images/image-web-3-desktop.jpg);
